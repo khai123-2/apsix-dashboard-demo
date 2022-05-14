@@ -17,8 +17,8 @@
 import { Settings as LayoutSettings } from '@ant-design/pro-layout';
 
 export default {
-  navTheme: 'dark',
-  primaryColor: '#1890ff',
+  navTheme: 'light',
+  primaryColor: '#e64b31',
   layout: 'mix',
   contentWidth: 'Fluid',
   fixedHeader: false,
@@ -28,11 +28,11 @@ export default {
   menu: {
     locale: true,
   },
-  title: 'APISIX Dashboard',
+  title: 'Viettel CDN',
   pwa: false,
   iconfontUrl: '',
   serveUrlMap: {
-    dev: 'http://139.217.190.60',
+    dev: 'http://0.0.0.0:9000',
     test: 'http://localhost:9000',
   },
 } as LayoutSettings & {

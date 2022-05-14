@@ -41,7 +41,7 @@ export default defineConfig({
   },
   routes,
   layout: {
-    name: 'APISIX Dashboard',
+    name: 'Viettel CDN Dasboard',
     locale: true,
     logo: '/favicon.png',
   },

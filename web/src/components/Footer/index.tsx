@@ -15,17 +15,17 @@
  * limitations under the License.
  */
 import React from 'react';
-import { GithubOutlined } from '@ant-design/icons';
+import { CloudServerOutlined } from '@ant-design/icons';
 import { DefaultFooter } from '@ant-design/pro-layout';
 
 export default () => (
   <DefaultFooter
-    copyright={`${new Date().getFullYear()} Apache APISIX`}
+    copyright={`Bản quyền thuộc về: Công ty TNHH Viettel - CHT`}
     links={[
       {
-        key: 'GitHub',
-        title: <GithubOutlined />,
-        href: 'https://github.com/apache/apisix',
+        key: 'Viettel IDC',
+        title: <CloudServerOutlined />,
+        href: 'https://www.viettelidc.com.vn/',
         blankTarget: true,
       },
     ]}

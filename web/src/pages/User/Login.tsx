@@ -102,11 +102,7 @@ const Page: React.FC = () => {
               <img alt="logo" className={styles.logo} src={logo} />
             </Link>
           </div>
-          <div className={styles.desc}>
-            Apache APISIX Dashboard
-            <br />
-            Cloud-Native Microservices API Gateway
-          </div>
+          <div className={styles.desc}>Viettel CDN Dashboard</div>
         </div>
         <div className={styles.main}>
           <Tabs activeKey={loginMethod.id} onChange={onTabChange} onKeyDown={onKeyDown}>
