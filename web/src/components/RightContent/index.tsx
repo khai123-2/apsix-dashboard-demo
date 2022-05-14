@@ -21,6 +21,7 @@
 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 * SOFTWARE.
 */
+import { Tag, Space } from 'antd';
 import React from 'react';
 import { useModel, SelectLang } from 'umi';
 
